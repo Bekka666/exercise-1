@@ -16,3 +16,57 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+/* SOCIAL -----------------------------------------------------------*/ 
+
+.social img {
+	width: 100%;
+	display: block;
+}
+.social{
+	background-color: transparent;
+	text-align: center;
+	padding-top: 1.5rem;
+}
+.social ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.social li{
+	display: inline-block;
+}
+
+.social li a {
+	width: 35px;
+	height: 100%;
+	display: block;
+	padding: .5rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #000;
+	-moz-box-shadow: inset 0px 0px 0px 40px #000;
+	-ms-box-shadow: inset 0px 0px 0px 40px #000;
+	-o-box-shadow: inset 0px 0px 0px 40px #000;
+	box-shadow: inset 0px 0px 0px 40px #000;
+	
+}
+
+.social li a:hover{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #00F3FF;
+	-moz-box-shadow: inset 0px 0px 0px 3px #00F3FF;
+	-ms-box-shadow: inset 0px 0px 0px 3px #00F3FF;
+	-o-box-shadow: inset 0px 0px 0px 3px #00F3FF;
+	box-shadow: inset 0px 0px 0px 3px #00F3FF;
+}
