@@ -24,9 +24,10 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
+  color: red;
  
   display: inline-block;
-  text-decoration: inherit;
+  text-decoration: none;
   width: 1em;
   margin-right: .2em;
   text-align: center;
