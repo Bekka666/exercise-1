@@ -11,11 +11,13 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background-color: #FF7600;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
 
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,6 +30,7 @@ h1 {
 	background: url(../images/blackpattern.png);
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
+	margin-top: 10rem;
 }
 
 /* Animation -----------------------------------------------------------*/
@@ -48,7 +51,7 @@ h1 {
 	position: relative;
 }
 .js-icon-fade {
-	-webkit-animation: icon-fade 750ms linear forwards;
+	-webkit-animation: icon-fade 800ms linear forwards;
 }
 @-webkit-keyframes icon-fade {
 	0% {
@@ -60,6 +63,28 @@ h1 {
 		top: 0;
 	}
 }
+
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow: hidden;
+ 
+    }   
+ 
+.rotate:hover   
+{ 
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg); 
+    -o-transform: rotate(360deg);
+}   
 
 /* SOCIAL -----------------------------------------------------------*/ 
 
@@ -100,9 +125,9 @@ h1 {
 }
 
 .social li a:hover{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #FF0004;
-	-moz-box-shadow: inset 0px 0px 0px 3px #FF0004;
-	-ms-box-shadow: inset 0px 0px 0px 3px #FF0004;
-	-o-box-shadow: inset 0px 0px 0px 3px #FF0004;
-	box-shadow: inset 0px 0px 0px 3px #FF0004;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-o-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	box-shadow: inset 0px 0px 0px 3px #FFFFFF;
 }
