@@ -17,12 +17,48 @@ html {
 	box-sizing: inherit;
 }
 
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: Black;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.header-section {
+	background: url(../images/blackpattern.png);
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+/* Animation -----------------------------------------------------------*/
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
 	-moz-transition: all 350ms ease-in-out;
 	-ms-transition: all 350ms ease-in-out;
 	-o-transition: all 350ms ease-in-out;
 	transition: all 350ms ease-in-out;
+}
+
+.icon {
+	margin: 0 auto 1.5em;
+	display: block;
+	width: 150px;
+	opacity: 0;
+	transition: all 500ms ease;
+	position: relative;
+}
+.js-icon-fade {
+	-webkit-animation: icon-fade 750ms linear forwards;
+}
+@-webkit-keyframes icon-fade {
+	0% {
+		opacity: 0;
+		top: -250px;
+	}
+	100% {
+		opacity: 1;
+		top: 0;
+	}
 }
 
 /* SOCIAL -----------------------------------------------------------*/ 
@@ -46,10 +82,10 @@ html {
 }
 
 .social li a {
-	width: 35px;
+	width: 100%;
 	height: 100%;
 	display: block;
-	padding: .5rem;
+	padding: 1rem;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -64,9 +100,9 @@ html {
 }
 
 .social li a:hover{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #00F3FF;
-	-moz-box-shadow: inset 0px 0px 0px 3px #00F3FF;
-	-ms-box-shadow: inset 0px 0px 0px 3px #00F3FF;
-	-o-box-shadow: inset 0px 0px 0px 3px #00F3FF;
-	box-shadow: inset 0px 0px 0px 3px #00F3FF;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FF0004;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FF0004;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FF0004;
+	-o-box-shadow: inset 0px 0px 0px 3px #FF0004;
+	box-shadow: inset 0px 0px 0px 3px #FF0004;
 }
